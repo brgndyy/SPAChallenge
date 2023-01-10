@@ -5,13 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HPNY 2023</title>
     <link rel="stylesheet" href="main.css" />
-    <script src="../node_modules/axios/dist/axios.min.js"></script>
-    <script src="home.js" defer></script>
   </head>
   <body>
     <main>
       <section id="page-main" class="main_section">
-        <div id="main_container">
+        <div id="main_container" class="main_container">
           <div id="detail_title" class="detail_title">
             <a href="/"><strong>HPNY 2023</strong></a>
           </div>
@@ -21,33 +19,10 @@
             </a>
           </div>
         </div>
-        <ul id="post-list">
-          <li id="post" class="post">
-            <a href="">
-              <img
-                src="https://images.unsplash.com/photo-1661956602153-23384936a1d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzOTcyNzJ8MXwxfGFsbHwxfHx8fHx8Mnx8MTY3MzMzNDIxNg&ixlib=rb-4.0.3&q=80&w=200"
-                alt="thumnailImg"
-              />
-              <div>
-                <strong>123</strong>
-                <p>123123</p>
-              </div>
-            </a>
-          </li>
-          <li id="post" class="post">
-            <a href="">
-              <img
-                src="https://images.unsplash.com/photo-1661956602153-23384936a1d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzOTcyNzJ8MXwxfGFsbHwxfHx8fHx8Mnx8MTY3MzMzNDIxNg&ixlib=rb-4.0.3&q=80&w=200"
-                alt="thumnailImg"
-              />
-              <div>
-                <strong>123</strong>
-                <p>123123</p>
-              </div>
-            </a>
-          </li>
-        </ul>
+        <ul id="post_list" class="post_list"></ul>
       </section>
     </main>
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="home.js"></script>
   </body>
 </html>
